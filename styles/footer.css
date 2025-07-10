@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+footer section {
+    display: flex;
+}
+
+footer section:nth-child(1){
+    flex: 1;
+}
+
+footer section p {
+    margin: auto;
+}
+
+footer section:nth-child(2){
+    gap: 1rem;
+    margin: auto;
+}
+
+@media (width >= 80em) {   
+    footer section p {
+        margin: 0;
+    }
+
+    footer {
+        padding-inline: 2rem;
+    }
+}

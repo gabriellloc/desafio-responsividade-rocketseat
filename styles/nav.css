@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;    
+}
+
+.logo a img {
+    display: flex;
+    width: 10rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile a img {
+    display: flex;
+    width: 2.5rem;
+}
+
+.profile a .lupa {
+    width: 1.5rem;
+}
+
+.bnt_nav_desk {
+    display: none;
+}
+
+@media (width >= 80em) {
+    .bnt_nav_desk {
+        display: initial;
+    }
+
+    nav {
+        padding: var(--padding-nav);
+    }
+
+    .profile {
+        font-size: 1rem;
+    }
+}

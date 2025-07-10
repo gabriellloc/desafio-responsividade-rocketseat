@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+header .about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 0.875rem;
+}
+
+header .about div img{
+    width: 7.5rem;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.more div{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+@media (width >= 80em) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    header .about {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .about_me {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        max-width: 24rem;
+    }
+}
