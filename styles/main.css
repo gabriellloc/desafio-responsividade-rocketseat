@@ -4,6 +4,10 @@ main {
     gap: 1rem;
 }
 
+main div {
+    margin-inline: auto;
+}
+
 main div img {
     width: 100%;
 }
