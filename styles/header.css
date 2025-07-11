@@ -14,6 +14,7 @@ header .about {
 
 header .about div img{
     width: 7.5rem;
+    filter: drop-shadow(.25rem .25rem 3rem rgba(0 0 0/ .5));
 }
 
 .more {
